@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Build') 
       steps {
         sh 'g++ main/hello.cpp'
         echo 'Build Stage Successful'
